@@ -9,7 +9,7 @@ def main():
         #? If you need to run it and it's not working with psycopg3, try using psycopg2 instead.
         connection = psycopg2.connect(
             user = "postgres",
-            password = "d@t@SQLbases",
+            password = "" #? Insert password here,
             host = "127.0.0.1",
             port = "5432",
             database = "project_database"
